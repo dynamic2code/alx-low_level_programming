@@ -2,8 +2,6 @@
 /*start of the program*/
 int main(void)
 {
-/*initializing charactes*/
-char Mystring[] = "\"Programming is like building a multilingual puzzle";
-puts(Mystring);
-(return 0);
+puts ("\"PROGRAMMING IS LIKE BUILDING A MULTILINGUAL PUZZLE");
+return (0);
 }
