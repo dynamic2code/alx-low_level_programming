@@ -2,6 +2,6 @@
 /*start of the program*/
 int main(void)
 {
-puts ("\"PROGRAMMING IS LIKE BUILDING A MULTILINGUAL PUZZLE");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
