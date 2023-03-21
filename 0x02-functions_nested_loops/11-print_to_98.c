@@ -11,7 +11,7 @@ if (n >= 98)
 for (; n > 98; n--)
 {
 _putchar(n + 48);
-_putchar(',');
+_putchar(32);
 }
 }
 else if (n < 98)
@@ -19,7 +19,7 @@ else if (n < 98)
 for (; n < 98; n++)
 {
 _putchar(n + 48);
-_putchar(',');
+_putchar(32);
 }
 }
 else
