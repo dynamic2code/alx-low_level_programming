@@ -6,7 +6,7 @@
  *
  *@x : first intager
  *@y : second intager
- *Return: Add of number one and number two. 
+ *Return: Add of number one and number two.
  */
 int add(int x, int y)
 {
