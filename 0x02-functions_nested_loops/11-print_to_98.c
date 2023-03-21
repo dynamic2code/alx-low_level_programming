@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_to_98 - prints all natural numbers from n to 98, followed by a new line.
+ *print_to_98 - prints all natural numbers from n to 98.
  *@n :the number passed to your function
  *RETURN :returns void
  */
@@ -10,7 +10,7 @@ void print_to_98(int n)
 	{
 	for (; n > 98; n--)
 		{
-		_putchar('n');
+		_putchar(n);
 		_putchar(',');
 		}
 	}
@@ -18,7 +18,7 @@ void print_to_98(int n)
 	{
 		for (; n < 98; n++)
 		{
-		_putchar('n');
+		_putchar(n);
 		_putchar(',');
 		}
 	}
