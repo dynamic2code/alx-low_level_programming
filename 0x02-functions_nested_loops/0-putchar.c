@@ -1,4 +1,5 @@
 #include "_putchar.h"
+
 /**
 * main - Print the word "_putchar"
 *
@@ -7,7 +8,13 @@
 
 int main(void)
 {
-char out_put[] = "_putchar";
-_putchar(out_put);
-return(0);
+	int i;
+	char p[] = "_putchar";
+
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
+	return (0);
 }
