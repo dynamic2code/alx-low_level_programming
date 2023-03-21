@@ -9,7 +9,7 @@
 * -1 is less than zero.
 */
 
-int print_sing(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
