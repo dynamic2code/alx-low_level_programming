@@ -1,4 +1,5 @@
-#include "main.h"
+#include <ctype.h>
+#include "_putchar.h"
 
 /**
 * _islower - Shows 1 if the input is a
@@ -8,15 +9,22 @@
 *
 * Return: 1 for lowercase. 0 for the rest.
 */
+int _islower(int c);
+
+int main(void)
+{
+_islower(int c);
+}
+
 int _islower(int c)
 {
 int c;
-if (c >= 97 && c <= 122)
+if (islower(c))
 {
-return (1);
+return(1);
 }
 else
 {
-return (0);
+return(0);
 }
 }
