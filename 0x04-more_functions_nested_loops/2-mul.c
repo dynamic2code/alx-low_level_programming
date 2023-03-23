@@ -4,11 +4,12 @@
  *mul -multiplies two integers
  *@a: first integer
  *@b: second integer
- *Return: always 0
+ *Return: x 
  */
 
 int mul(int a, int b)
 {
-_putchar(a * b);
-return (0);
+int x;
+x = a * b;
+return (x);
 }
