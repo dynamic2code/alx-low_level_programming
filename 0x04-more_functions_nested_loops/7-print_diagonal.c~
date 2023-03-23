@@ -2,8 +2,8 @@
 
 /**
  *print_diagonal - draws a diagonal line on the terminal
- *@n: number given
- *
+ *@i: number of times to go to new line
+ *@j: number of blank spaces per line
  */
 
 void print_diagonal(int n)
