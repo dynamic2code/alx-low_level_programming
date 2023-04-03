@@ -5,7 +5,7 @@
  *@s: character to fill
  *@b: constant byte
  *@n: size of memory
- *Returns: a pointer to the memory area s
+ *Return: a pointer to the memory area s
  *
  */
 
