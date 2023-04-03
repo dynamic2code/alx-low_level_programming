@@ -15,5 +15,5 @@ while (n-- > 0)
 {
 *p++ = *src++;
 }
-return dest;
+return (dest);
 }

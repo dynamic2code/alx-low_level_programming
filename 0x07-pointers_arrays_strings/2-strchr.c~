@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_strchr - locates a character in a string
+ *_strchr - 
  *@s: the sting
- *@c: the c charater
+ *@c: the c charater 
  *Return: a pointer to the first occurrence of the character c in the string s,
  * or NULL if the character is not found
  */
@@ -17,5 +17,5 @@ for (i = 0; s[i] != '\0' ; i++)
 if (s[i] == c)
 return (&s[i]);
 }
-return (NULL);
+return (0);
 }
