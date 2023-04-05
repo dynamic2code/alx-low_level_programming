@@ -2,20 +2,16 @@
 
 /**
  *_strlen_recursion - calculates the length of a string
- *
  *@s: string to be used
- *@len: length of string
+ *
  *Return: the length of a string
  */
 
 int _strlen_recursion(char *s)
 {
-int len = 0;
 if (*s == '\0')
 {
-return (len);
+return (0);
 }
-len++;
-_strlen_recursion(s + 1);
-return (len);
+return (_strlen_recursion(s + 1) + 1);
 }
