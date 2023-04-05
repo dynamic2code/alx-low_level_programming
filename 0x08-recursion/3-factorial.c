@@ -3,12 +3,13 @@
 /**
  *factorial - calculates the factorial of a give number
  *@n: the given number
- *Returns: the factorial of a given number.
+ *
+ *Return: the factorial of a given number.
  */
 
 int factorial(int n)
 {
-  if (n < 0)
+if (n < 0)
 {
 return (-1);
 }
@@ -18,6 +19,6 @@ return (1);
 }
 else
 {
-return (n * factorial(n -1));
+return (n * factorial(n - 1));
 }
 }
