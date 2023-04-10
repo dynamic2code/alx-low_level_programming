@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *nargc -  prints the number of arguments passed 
  *@argc: number of arguments
@@ -9,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-argc = argc;
-printf("%d", argc - 1);
+argv = argv;
+printf("%d\n", argc - 1);
 return(0);
 }
