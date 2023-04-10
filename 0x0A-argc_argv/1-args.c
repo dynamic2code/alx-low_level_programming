@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *nargc -  prints the number of arguments passed
+ *main -  prints the number of arguments passed
  *@argc: number of arguments
  *@argv: list of arguments
  *Return: (0)
