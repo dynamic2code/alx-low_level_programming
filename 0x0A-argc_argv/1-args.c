@@ -1,13 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- *
- *
- *
+ *main -  prints the number of arguments passed 
+ *@argc: number of arguments
+ *@argv: list of arguments
+ *Return: (0)
  */
 
 int main(int argc, char *argv[])
 {
- _putchar('%', argc);
+argc = argc;
+printf("%d", argc + 1);
 return(0);
 }
