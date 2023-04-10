@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  *nargc -  prints the number of arguments passed 
