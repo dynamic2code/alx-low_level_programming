@@ -25,7 +25,7 @@ if (n >= strlen(s2))
 n = strlen(s2);
 }
 char *new;
-new = malloc(strlen(s1) + 1 + n)
+new = malloc(strlen(s1) + 1 + n);
 if (new == NULL)
 {
 return (NULL);
