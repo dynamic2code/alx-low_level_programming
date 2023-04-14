@@ -23,7 +23,7 @@ if (my_array == NULL)
 {
 return (NULL);
 }
-for (i = 0; i <= max - min; i++)
-my_array[i] = min + i;
+for (i = 0; i < count && min <= max; i++, min++)
+*(my_array + i) = min;
 return (my_array);
 }
