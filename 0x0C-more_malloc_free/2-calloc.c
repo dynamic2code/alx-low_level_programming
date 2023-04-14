@@ -22,5 +22,5 @@ if(my_array == NULL)
 return (NULL);
 }
 memset(my_array, 0, nmemb * size);
-return (my_array);
+return ((void *)my_array);
 }
