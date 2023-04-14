@@ -24,6 +24,6 @@ if (my_array == NULL)
 return (NULL);
 }
 for (i = 0; i <= max - min; i++)
-arr[i] = min + i;
+my_array[i] = min + i;
 return (my_array);
 }
