@@ -14,13 +14,14 @@ if(nmemb == 0 || size == 0)
 return (NULL);
 }
 char *my_array;
-
+unsigned int i;
 my_array = malloc(size * nmemb);
 
 if(my_array == NULL)
 {
 return (NULL);
 }
-memset(my_array, 0, nmemb * size);
+for (i = 0; i < nmemb * size; i++)
+*(my_array + i) = 0;
 return ((void *)my_array);
 }
