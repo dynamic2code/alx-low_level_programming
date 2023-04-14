@@ -20,12 +20,16 @@ if (s2 == NULL)
 {
 s2 = "";
 }
+if (n >= strlen(s2))
+{
+n = strlen(s2);
+}
 char *new;
-new = malloc(strlen(s1) + 1 + sizeof(char) * n)
+new = malloc(strlen(s1) + 1 + n)
 if (new != NULL)
 {
-strcpy(new, s1);
-strcat(new, s2);
+memcpy(new, s1, strlen(s1));
+memcpy(new + strlen(s1), s2, n);
 new [strlen(s1) + sizeof(char) * n] = '\0';
 return (new);
        
