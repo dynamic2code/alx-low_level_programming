@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  **malloc_checked - allocates memory using malloc
- *@d: size to be allocated
+ *@b: size to be allocated
  *Return: a pointer to the allocated memory
  */
 
