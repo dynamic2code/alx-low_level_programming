@@ -32,8 +32,8 @@ return (NULL);
 }
 else
 {
-memcpy(new, s1, strlen(s1));
-memcpy(new + strlen(s1), s2, n);
+strncpy(new, s1, strlen(s1));
+ strncpy(new + strlen(s1), s2,  - strlen(s1));
 new [strlen(s1) + n] = '\0';
 return (new);
 }
