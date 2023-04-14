@@ -26,16 +26,15 @@ n = strlen(s2);
 }
 char *new;
 new = malloc(strlen(s1) + 1 + n)
-if (new != NULL)
+if (new == NULL)
+{
+return (NULL);       
+}
+else
 {
 memcpy(new, s1, strlen(s1));
 memcpy(new + strlen(s1), s2, n);
-new [strlen(s1) + sizeof(char) * n] = '\0';
+new [strlen(s1) + n] = '\0';
 return (new);
-       
-}
-else if (new == NULL)
-{
-return (NULL);
 }
 }
