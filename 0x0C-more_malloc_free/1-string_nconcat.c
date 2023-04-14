@@ -4,9 +4,9 @@
 
 /**
  **string_nconcat - concatenates two strings.
- *@s1 - first string
- *@s2 - second string
- *@n - maximum size needed
+ *@s1: first string
+ *@s2: second string
+ *@n:  maximum size needed
  *Return: return NULL if function fail and pointer to new string if successful
  */
 
@@ -28,7 +28,7 @@ char *new;
 new = malloc(strlen(s1) + 1 + n)
 if (new == NULL)
 {
-return (NULL);       
+return (NULL);
 }
 else
 {
