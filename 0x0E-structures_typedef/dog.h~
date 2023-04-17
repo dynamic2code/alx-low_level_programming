@@ -1,5 +1,3 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE dog.h
 /**
  * struct dog - Define a new struct dog with name, age, owner
  * @name: name of the dog
@@ -12,4 +10,3 @@ struct dog
 	float age;
 	char *owner;
 };
-#endif
