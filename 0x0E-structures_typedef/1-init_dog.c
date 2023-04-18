@@ -16,4 +16,6 @@ d->name = name;
 d->age = age;
 d->owner = owner;
 }
+struct dog my_dog;
+init_dog(&my_dog, "dog1", 4.5, "jammy");
 }
