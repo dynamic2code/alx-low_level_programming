@@ -32,6 +32,7 @@ return(1);
 while (*argv[j] != "/0")
 {
 sum =+ *argv[j];
+j++;
 }
 
 }
